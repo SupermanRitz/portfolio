@@ -11,6 +11,8 @@ html {
 
 body {
   margin: 0;
+  background-image: './Assets/images/porsche-911-gt2-5795128.jpg';
+  background-color: #cccccc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
