@@ -41,7 +41,14 @@ body {
 
 /* Portfolio Header */
 
+.main-header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 #portfolio-header {
+  position: relative;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -99,14 +106,15 @@ body {
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  /*flex-direction: column;*/
   gap: 20px;
+  padding: 20 px;
 }
 
     /* Project Cards */
 
     .project-card {
       background-color: white;
+      border: 1px solid #ccc
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba( 0 , 0 , 0 , 0.1 );
