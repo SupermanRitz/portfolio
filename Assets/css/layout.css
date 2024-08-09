@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
+  height: 100%;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -10,8 +13,10 @@ html {
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
-  background-image: './Assets/images/porsche-911-gt2-5795128.jpg';
+  max-width: 400px;
+  background-image:  './Assets/images/porsche-911-gt2-5795128.jpg';
   background-color: #cccccc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
