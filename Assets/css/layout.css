@@ -15,7 +15,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
-  max-width: 400px;
+  max-width: 1400px;
   background-image:  './Assets/images/porsche-911-gt2-5795128.jpg';
   background-color: #f4f4f4;
   -webkit-font-smoothing: antialiased;
