@@ -53,13 +53,15 @@ body {
   box-sizing: content-box;
   width: 100%;
   height: 200px;
+  position: relative;
+  object-fit: contain;
 }
 
 .portfolio-header-image-container{
   box-sizing: content-box;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: scale-down;
 }
 
 
