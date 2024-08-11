@@ -42,10 +42,10 @@ body {
 
 .main-header{
   box-sizing: content-box;
-  overflow: hidden;
+  overflow: cover;
   position: relative;
   text-align: center;
-  height: 400px;
+  height: 200px;
   color: #f4f4f4;
 }
 
