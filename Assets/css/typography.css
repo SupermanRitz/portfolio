@@ -25,6 +25,7 @@ body {
 .subheader-text {
   font-size: 20px;
   font-weight: 700;
+  color: black;
 }
 
 .body-text {
@@ -33,7 +34,7 @@ body {
 }
 
 .project-card-text {
-  overflow: hidden;
+  overflow: scroll;
   font-size: 14;
   font-weight: 500;
   text-overflow: ellipsis;
@@ -49,4 +50,5 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  overflow: hidden;
 }
