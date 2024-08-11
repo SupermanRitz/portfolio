@@ -41,7 +41,7 @@ body {
 
 .project-card-text {
   overflow: hidden;
-  font-size: 14;
+  font-size: 14px;
   font-weight: 500;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -50,7 +50,7 @@ body {
 }
 
 .project-title {
-  font-size: 16;
+  font-size: 16px;
   font-weight: 700;
   text-overflow: ellipsis;
   display: -webkit-box;
