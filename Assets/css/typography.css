@@ -45,11 +45,11 @@ body {
   font-weight: 500;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 
-.project-title {
+.project-title-text {
   font-size: 16px;
   font-weight: 700;
   text-overflow: ellipsis;
