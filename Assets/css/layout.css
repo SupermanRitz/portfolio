@@ -42,7 +42,7 @@ body {
 
 .main-header{
   overflow: hidden;
-  position: relative;
+  position: absolute;
   text-align: center;
   height: 400px;
   color: #f4f4f4;
@@ -84,9 +84,11 @@ body {
 }
 
 .about-section-content {
+  box-sizing: content-box;
   display: flex;
   flex-direction: column;
   gap: 34px;
+  padding: 20px;
 }
 
 
@@ -100,6 +102,7 @@ body {
 }
 
 .projects-container {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
