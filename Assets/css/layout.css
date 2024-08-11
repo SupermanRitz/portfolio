@@ -54,6 +54,7 @@ body {
 }
 
 .portfolio-header-image img{
+  display: flex;
   width: auto;
   height: auto;
   object-fit: fill;
