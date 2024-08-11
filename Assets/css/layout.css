@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 30px;
+  padding: 10px;
 }
 
 html {
@@ -20,7 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  padding: 30px;
+  padding: 10px;
 }
 
 
@@ -31,7 +31,7 @@ body {
 #main-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
 }
 
 
@@ -87,7 +87,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -101,7 +101,6 @@ body {
 }
 
 .projects-container {
-  box-sizing: border-box;
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
