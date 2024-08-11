@@ -47,18 +47,14 @@ body {
 }
 
 .portfolio-header-image-container{
-  display: flex;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 350px;
   overflow: hidden;
 }
 
 .portfolio-header-image img{
-  display: flex;
-  width: auto;
-  height: auto;
-  object-fit: fill;
-  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .image-caption{
