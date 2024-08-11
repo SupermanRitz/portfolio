@@ -44,14 +44,11 @@ body {
   box-sizing: content-box;
   position: relative;
   text-align: center;
-  height: 200px;
+  height: 400px;
   color: #f4f4f4;
-  object-fit: contain;
 }
 
 .portfolio-header-image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 /*
