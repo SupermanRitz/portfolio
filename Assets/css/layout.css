@@ -49,6 +49,7 @@ body {
   color: #f4f4f4;
 }
 
+/*
 .portfolio-header {
   box-sizing: content-box;
   width: 100%;
@@ -65,7 +66,6 @@ body {
   object-fit: contain;
 }
 
-/*
 .image-caption{
   display: flex;
   position: relative;
