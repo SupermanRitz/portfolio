@@ -42,7 +42,7 @@ body {
 
 .main-header{
   overflow: hidden;
-  position: absolute;
+  position: relative;
   text-align: center;
   height: 400px;
   color: #f4f4f4;
@@ -84,7 +84,6 @@ body {
 }
 
 .about-section-content {
-  box-sizing: content-box;
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -106,7 +105,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
-  padding: 20 px;
+  padding: 10px;
 }
 
     /* Project Cards */
