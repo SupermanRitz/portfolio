@@ -28,10 +28,9 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 20px 20px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 40px;
 }
 
 
@@ -49,7 +48,8 @@ body {
 
 .portfolio-header-image-container{
   display: flex;
-  height: 300px;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 
@@ -107,7 +107,7 @@ body {
 
     .project-card {
       background-color: white;
-      border: 1px solid #ccc
+      border: 1px solid #ccc;
       padding: 20px;
       border-radius: 5px;
       box-shadow: 0 4px 8px rgba( 0 , 0 , 0 , 0.1 );
