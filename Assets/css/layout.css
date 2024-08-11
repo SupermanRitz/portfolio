@@ -95,7 +95,9 @@ body {
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
+  padding: 20px;
   gap: 16px;
+  text-align: center;
 }
 
 .about-section-content {
