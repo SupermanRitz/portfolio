@@ -44,11 +44,20 @@ body {
   box-sizing: content-box;
   position: relative;
   text-align: center;
-  height: 400px;
+  height: 600px;
   color: #f4f4f4;
 }
 
+.portfolio-header {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 5px;
+  object-fit: inherit;
+}
+
 .portfolio-header-image {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 /*
